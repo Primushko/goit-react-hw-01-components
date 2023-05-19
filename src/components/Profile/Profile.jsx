@@ -6,9 +6,10 @@ import {
   AvatarName,
   Tag,
   Location,
-  Stats,
-  Quantiny,
-  Label,
+    Stats,
+    Quantiny,
+    Label,
+  
 } from './Profile.styled';
 
 export const Profile = ({ avatar, username, tag, location, stats }) => {
