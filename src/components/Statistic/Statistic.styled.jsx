@@ -1,30 +1,26 @@
-
 import styled from '@emotion/styled';
 
 export const Statistics = styled.section`
-  width: 700px;
+  width: 800px;
   margin: 15px auto;
   border-radius: 5px;
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
     1px 4px 6px rgb(0 0 0 / 16%);
   overflow: hidden;
-  justify-content:center;
-text-align:center;
-
-
+  justify-content: center;
+  text-align: center;
 `;
 
 export const StatisticTitle = styled.h2`
-
-color: ${p=>p.theme.colors.staticTitle};
+  color: ${p => p.theme.colors.staticTitle};
 `;
 
 export const StatList = styled.ul`
-display:flex;
-margin:auto;
-padding:25px;
-justify-content:center;
-text-align:center;
+  display: flex;
+  margin: auto;
+  padding: 25px;
+  justify-content: center;
+  text-align: center;
 `;
 
 function randomColor() {
@@ -32,11 +28,10 @@ function randomColor() {
 }
 
 export const StatItem = styled.li`
-padding:25px;
-background-color:${randomColor};
+  padding: 25px;
+  background-color: ${randomColor};
 `;
 export const Label = styled.span`
-display:flex;
-
+  display: flex;
 `;
 export const Percantage = styled.span``;
