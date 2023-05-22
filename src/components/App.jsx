@@ -6,18 +6,11 @@ import { FriendList } from './FriendList/FriendList';
 import friends from 'friends';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from 'transactions';
+import { appStyles } from './styles';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <div style={appStyles}>
       <Profile
         username={user.username}
         tag={user.tag}
